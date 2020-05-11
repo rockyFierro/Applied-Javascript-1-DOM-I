@@ -2,8 +2,6 @@ const siteContent = {
   "nav": {
     "nav-item-1": "Services",
     "nav-item-2": "Product",
-    "nav-item-3": "Vision",
-    "nav-item-4": "Features",
     "nav-item-5": "About",
     "nav-item-6": "Contact",
     "img-src": "img/logo.png"
@@ -40,3 +38,10 @@ const siteContent = {
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
+
+const  cta_image = document.getElementById("cta-img");
+const middle_image = document.getElementById("middle-img");
+
+
+cta_image.setAttribute('src',siteContent["cta"]["img-src"]);
+middle_image.setAttribute(('src',siteContent["main-content"]["middle-img-src"]);
